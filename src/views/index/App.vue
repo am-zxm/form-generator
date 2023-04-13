@@ -11,7 +11,7 @@ export default {
     const preLoader = document.querySelector('#pre-loader')
     preLoader.style.display = 'none'
 
-    // fix: firefox 下 拖拽 会新打卡一个选项卡
+    // fix: firefox 下 拖拽 会新打卡一个选项卡2
     // https://github.com/JakHuang/form-generator/issues/15
     document.body.ondrop = event => {
       event.preventDefault()
